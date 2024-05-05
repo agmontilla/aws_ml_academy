@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "aws-ml-academy"
+version = "0.1.0"
+description = "A lab's collection from aws academy course (2024)"
+authors = ["Alfonso Montilla <montilla05alfonso@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+pandas = "^2.2.2"
+scipy = "^1.13.0"
+ipykernel = "^6.29.4"
+matplotlib = "^3.8.4"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
