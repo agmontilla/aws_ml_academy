@@ -162,3 +162,6 @@ cython_debug/
 # Arff and Dat files
 *.arff
 *.dat
+
+# DS Store files
+.DS_Store
